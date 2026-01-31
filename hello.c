@@ -130,8 +130,8 @@ void ccEntry(void) {
     case 1:
       if (i < 14)
         state = 2; // next bite
-                   // nom nom
-                   // yum
+      // nom nom
+      // yum
       else
         state = 3; // finished
       break;
